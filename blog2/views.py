@@ -1,11 +1,10 @@
 
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from .models import Post
-from django.shortcuts import render, get_object_or_404, redirect
-from .forms import PostForm
-from django.contrib.auth.decorators import login_required
 from .forms import PostForm, CommentForm
+from django.contrib.auth.decorators import login_required
+
 
 
 
@@ -39,7 +38,7 @@ def post_draft_list(request):
     return render(request, 'blog/post_draft_list.html', {'posts': posts})
 @login_required
 def comment_approve(request, pk):
-    comment = get_object_or_404(Comment, pk=post.pk)
+    comment = get_object_or_404(Comment, pk=pk)
     comment.approve()
     return redirect('blog.views.post_detail', pk=comment.post.pk)
 
