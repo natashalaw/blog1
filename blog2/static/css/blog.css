@@ -2,9 +2,9 @@ h1 a {
     color: pink;
 }
 body {
-    padding-left: 60px;
-    text-align: center;
-  
+    padding-left: 100px;
+    margin: 0 auto;
+
 }
 .page-header {
 	height: 400px;
