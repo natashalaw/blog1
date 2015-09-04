@@ -39,7 +39,7 @@ def post_draft_list(request):
     return render(request, 'blog/post_draft_list.html', {'posts': posts})
 @login_required
 def comment_approve(request, pk):
-    comment = get_object_or_404(Comment, pk=pk)
+    comment = get_object_or_404(Comment, pk=post.pk)
     comment.approve()
     return redirect('blog.views.post_detail', pk=comment.post.pk)
 
