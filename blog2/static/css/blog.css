@@ -8,6 +8,7 @@ body {
 }
 .page-header {
 	height: 400px;
+	padding-left: -50px;
 }
 .page-footer{
 	height: 400px;
