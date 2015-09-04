@@ -2,13 +2,13 @@ h1 a {
     color: pink;
 }
 body {
-    padding-left: 100px;
     text-align: center;
 
 }
 .page-header {
 	height: 400px;
 	padding-right: 50px;
+	padding-left: 100px;
 }
 .page-footer{
 	height: 400px;
