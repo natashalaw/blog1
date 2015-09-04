@@ -6,8 +6,6 @@ from .forms import PostForm, CommentForm
 from django.contrib.auth.decorators import login_required
 
 
-
-
 # Create your views here.
 def post_list(request):
 	posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
