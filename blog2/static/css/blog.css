@@ -11,8 +11,14 @@ body {
 }
 .page-footer{
 	height: 400px;
+
 }
 .container-fluid {
 	margin: 0 auto;
 	padding: 0 200px 0 200px;
+}
+@media (min-width: 500px) and (max-width: 600px){
+	img {
+		width: 500px;
+	}
 }
