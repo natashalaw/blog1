@@ -18,6 +18,10 @@ body {
 }
 .container {
 	margin: 0 auto;
+}
+.column {
+ width: 50%;
+}
 	
 	
 }
