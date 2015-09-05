@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 h1 a {
     color: pink;
@@ -18,7 +16,7 @@ body {
 }
 .container-fluid {
 	margin: 0 auto;
-	max-width: 650px;
+	max-width: 450px;
 	min-width: 300px;
 	
 }
