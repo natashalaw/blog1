@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 a {
     color: pink;
 }
@@ -14,7 +18,7 @@ body {
 }
 .container-fluid {
 	margin: 0 auto;
-	padding: 0 200px 0 200px;
+	
 }
 img {
 	max-width: 100%;
