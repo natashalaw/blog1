@@ -21,8 +21,8 @@ body {
 	
 }
 .column {
- width: 30%;
- margin: 0 auto;
+ width: 50%;
+ margin: 200 auto;
  float: left;
 }
 .side-bar {
