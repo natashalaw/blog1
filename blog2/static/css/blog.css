@@ -21,7 +21,11 @@ body {
 }
 .column {
  width: 30%;
- margin: 0 auto;
+ margin: 500 auto;
+}
+.side-bar {
+	float: right;
+	width: 30%;
 }
 	
 img {
