@@ -1,5 +1,5 @@
 * {
-    
+    box-sizing: border-box;
 }
 
 h1 a {
@@ -28,6 +28,8 @@ body {
 	width: 30%;
 	margin: 0 auto;
 	overflow: auto;
+	z-index: 1; 
+	position: absolute;
 }
 	
 img {
