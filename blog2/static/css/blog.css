@@ -34,7 +34,8 @@ body {
 	z-index: 1; 
 	position: relative;
 	height: 300px;
-	margin-right:120;
+	margin-right:140;
+	text-align: left;
 }
 	
 img {
