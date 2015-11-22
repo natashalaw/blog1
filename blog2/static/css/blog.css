@@ -45,3 +45,6 @@ img {
 .side:first-child {
 	padding-top: 20px;
 }
+.comment {
+	text-align: left;
+}
