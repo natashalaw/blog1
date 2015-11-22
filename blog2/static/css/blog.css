@@ -57,10 +57,10 @@ img {
 	z-index: 2; 
 	float: center;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 32pt;
+	font-size: 30pt;
 	font-weight: bold;
 	position:relative;
-	top: -40px;left: 5px;
+	top: -50px;left: 5px;
 	
 }
 headerimg {
