@@ -28,7 +28,7 @@ body {
 }
 .side-bar {
 	float: right;
-	width: 40%;
+	width: 30%;
 	margin: 0 auto;
 	overflow: auto;
 	z-index: 1; 
