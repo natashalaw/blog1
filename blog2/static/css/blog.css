@@ -33,7 +33,7 @@ body {
 	overflow: auto;
 	z-index: 1; 
 	position: relative;
-	height: 300px;
+	height: 100%;
 	margin-right: 10px;
 	text-align: center;
 }
