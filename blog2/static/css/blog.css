@@ -42,6 +42,9 @@ img {
 	max-width: 100%;
 }
 .side {
-	padding: 20px;
+
 	margin-left: 40px;
+}
+.side:first-child {
+	padding-top: 20px;
 }
