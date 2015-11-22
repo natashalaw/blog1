@@ -54,8 +54,12 @@ img {
 .row {
 	width: 100%;
 	color: #A9EDED;
-	z-index: 2; 
+	z-index: 1; 
 	float: center;
 	margin-bottom: 100px;
 	font-family: Helvetica, Bold;
+	position:relative;
+}
+headerimg {
+	z-index: 0;
 }
