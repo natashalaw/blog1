@@ -21,10 +21,10 @@ body {
 	
 }
 .column {
- width: 55%;
+ width: 60%;
  margin: 0 auto;
  float: left;
- margin-left: 180px;
+ margin-left: 185px;
 }
 .side-bar {
 	float: right;
