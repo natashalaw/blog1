@@ -1,12 +1,15 @@
 * {
     box-sizing: border-box;
 }
-
+p {
+	color: #000000;
+}
 h1 a {
     color: pink;
 }
 body {
     text-align: center;
+   
 
 }
 .page-header {
