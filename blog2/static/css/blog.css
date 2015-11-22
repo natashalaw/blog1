@@ -56,9 +56,11 @@ img {
 	color: #A9EDED;
 	z-index: 2; 
 	float: center;
-	font-family: Helvetica, Bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 42pt;
 	position:relative;
 	top: -40px;left: 5px;
+	
 }
 headerimg {
 	z-index: 1;
