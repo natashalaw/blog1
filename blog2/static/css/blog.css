@@ -28,6 +28,7 @@ body {
  margin: 0 auto;
  float: left;
  margin-left: 180px;
+ padding: 10px;
 }
 .side-bar {
 	float: right;
