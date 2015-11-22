@@ -24,7 +24,7 @@ body {
  width: 60%;
  margin: 0 auto;
  float: left;
- margin-left: 130px;
+ margin-left: 160px;
 }
 .side-bar {
 	float: right;
@@ -34,7 +34,7 @@ body {
 	z-index: 1; 
 	position: relative;
 	height: 300px;
-	margin-right:10%;
+	margin-right:10px;
 	text-align: center;
 }
 	
