@@ -58,6 +58,7 @@ img {
 	float: center;
 	font-family: Helvetica, Bold;
 	position:relative;
+	top: 35px;left: 225px;
 }
 headerimg {
 	z-index: 1;
