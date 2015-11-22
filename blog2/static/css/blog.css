@@ -41,3 +41,6 @@ body {
 img {
 	max-width: 100%;
 }
+.side {
+	padding: 20px;
+}
